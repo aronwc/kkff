@@ -54,12 +54,12 @@ def looks_like_finding_header(line):
 
 def filter_sentences(sentences):
     'Filter things that dont look like sentenes'
+    pass
 
 
 def summarize(lines, start, end):
     text = ' '.join(lines[start:end])
     sentences = sent_tokenize(text)
-    
     print sentences
     print '#sent=', len(sentences)
 
